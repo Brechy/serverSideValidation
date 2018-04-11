@@ -8,11 +8,17 @@ handled by the server.
 
 Let's get it running!
 
-Installation:
+## Installation:
 
 1. Clone this repo
 2. $ npm install
 3. $ createdb validations
 4. $ knex migrate:latest
-5. $ knex seed: run
-6. $ nodemon
+5. $ knex seed:run
+6. $ npm start
+
+## Exercise:
++ Add validations for the registering user to the POST route
++ Display error messages if the user already exists
++ Add one additional field and validate it (e.g. Age)
++ Bonus: Add login feature with validation
